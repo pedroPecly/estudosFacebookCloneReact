@@ -57,13 +57,13 @@ body {
   font-size: 25px;
 }
 
-.headerRight{
+.headerRight {
   width: 50%;
   text-align: right;
   margin: 0 20px;
 }
 
-.plus-btn{
+.plus-btn {
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -75,12 +75,12 @@ body {
   cursor: pointer;
 }
 
-.stories{
+.stories {
   display: flex;
   margin: 10px 0;
 }
 
-.storiesCard{
+.storiesCard {
   width: 19%;
   margin-right: 1%;
   padding-top: 20%;
@@ -95,5 +95,112 @@ body {
   padding: 10px;
 }
 
+.feed {
+  background-color: white;
+  padding: 10px;
+}
 
+.feedForm {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
 
+.feedForm img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+.feedForm input {
+  position: relative;
+  top: -8px;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-left: 2%;
+  width: calc(98% - 40px);
+  height: 50px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  border: 0;
+}
+
+.feedForm input:focus {
+  outline: 0;
+}
+
+.feedIcons {
+  padding: 20px 40px;
+  display: flex;
+
+}
+
+.icons svg {
+  vertical-align: middle;
+  font-size: 25px;
+}
+
+.icons.video svg {
+  color: #f02849;
+}
+
+.icons.img svg {
+  color: #45bd62;
+}
+
+.icons.emoji svg {
+  color: yellow;
+}
+
+.icons {
+  width: 33.3%;
+  text-align: center;
+}
+
+.icons span {
+  font-weight: bold;
+  color: gray;
+  margin: 0 10px;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.feedPostSingle{
+  margin: 20px 0;
+  background-color: white;
+}
+
+.feedPost_profile{
+  padding: 10px;
+}
+
+.feedPost_profile h3{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 10px;
+}
+
+.feedPost_profile h3 > span {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.feedPost_profile img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.feedPost_content img{
+  width: 50%;
+  display: block;
+}
+
+.feedPost_content p {
+  margin: 10px;
+}

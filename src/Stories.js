@@ -5,19 +5,19 @@ function Stories() {
     return (
         <div className='stories'>
             <div className='storiesCard' style={{ backgroundImage: `url(${react_logo})` }}>
-                <p>Usuario X</p>
+                <p>Usuario Padrao</p>
             </div>
             <div className='storiesCard' style={{ backgroundImage: `url(${react_logo})` }}>
-                <p>Usuario X</p>
+                <p>Usuario Padrao</p>
             </div>
             <div className='storiesCard' style={{ backgroundImage: `url(${react_logo})` }}>
-                <p>Usuario X</p>
+                <p>Usuario Padrao</p>
             </div>
             <div className='storiesCard' style={{ backgroundImage: `url(${react_logo})` }}>
-                <p>Usuario X</p>
+                <p>Usuario Padrao</p>
             </div>
             <div className='storiesCard' style={{ backgroundImage: `url(${react_logo})` }}>
-                <p>Usuario X</p>
+                <p>Usuario Padrao</p>
             </div>
         </div>
     );
