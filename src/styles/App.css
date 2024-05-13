@@ -170,11 +170,13 @@ body {
 
 .feedPostSingle{
   margin: 20px 0;
+  padding-bottom: 20px;
   background-color: white;
 }
 
 .feedPost_profile{
   padding: 10px;
+  margin-left: 35%;
 }
 
 .feedPost_profile h3{
@@ -197,10 +199,19 @@ body {
 }
 
 .feedPost_content img{
-  width: 50%;
+  /*margin-left: 25%;*/
+  max-width: 50%;
   display: block;
 }
 
 .feedPost_content p {
-  margin: 10px;
+  /*margin-left: calc(25% + 10px);*/
+  max-width: 50%;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
+
+.feedPost_content {
+  margin-left: 35%;
+}
+
