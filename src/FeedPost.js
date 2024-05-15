@@ -1,18 +1,19 @@
 import react_logo from './img/react-logo.png'
 import usuario_padrao from './img/usuario_padrao.png';
+import React from 'react';
 
-function FeedPost() {
+function FeedPost(props) {
     return (
         <div className='feedPost'>
             <div className='feedPostSingle'>
                 <div className='feedPost_profile'>
                     <img src={usuario_padrao}></img>
-                    <h3>Usuario Padrao<br></br><span>20:00</span></h3>
+                    <h3>{props.nome}<br></br><span>{props.horario}</span></h3>
 
                 </div>
                 <div className='feedPost_content'>
-                    <p>texto de exemplo pra postagem sample</p>
-                    <img src={react_logo}></img>
+                    <p>{props.conteudo}</p>
+                    <img src={props.imagem}></img>
                 </div>
             </div>
         </div>

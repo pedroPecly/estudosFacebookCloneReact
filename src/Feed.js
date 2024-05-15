@@ -1,5 +1,6 @@
 import usuario_padrao from './img/usuario_padrao.png';
 import { AiFillVideoCamera, AiOutlineFileImage, AiOutlineMeh } from 'react-icons/ai';
+import React from 'react';
 
 function Feed() {
     return (

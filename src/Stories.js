@@ -1,4 +1,5 @@
 import react_logo from './img/react-logo.png';
+import React from 'react';
 
 function Stories() {
 
